@@ -1,0 +1,60 @@
+<h1>Formulário</h1>
+    <form>
+        <fieldset>   
+            <legend>Dados pessoais</legend>                                                                                                                                                                                                                                                                                        
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
+        <br>
+        <br>
+        <label for="Endereço">Endereço:</label>
+        <input type="text" name="Endereço" id="Endereço" placeholder="Digite seu Endereço...">
+        <br>
+        <br>
+        <label for="cidade">Cidade</label>
+        <input type="cidade" name="cidade" id="cidade" placeholder="Digite sua Cidade...">
+        <br>
+        <br>
+        <label for="estado">Estado</label>
+        <select name="estado" id="estado"> 
+        <option value="sc">Santa Catarina</option>
+        <option value="sp">São Paulo</option>
+        <option value="rj">Rio de Janeiro</option>
+        <option value="ma">Maranhão</option>
+        <option value="mt">Mato Grosso</option>
+    </select>
+        </fieldset> 
+        <br>
+    <fieldset> 
+        <br>
+           <legend>Dados profissionais</legend>
+           <label for="opcao">Natureza do Cargo</label>
+           <br>
+           <input type="radio" name="opcao" checked>Gerência
+           <input type="radio" name="opcao">Financeiro
+           <input type="radio" name="opcao">Recepção 
+           <input type="radio" name="opcao">Administrativo 
+           <input type="radio" name="opcao">Jurídico
+           <br>
+           <br>
+           <label for="itens">Área de Interesse</label>
+           <br>
+        <input type="checkbox" name="computacao" id="computacao">Computação 
+        <input type="checkbox" name="biologia" id="biologia">Biologia
+        <input type="checkbox" name="meio ambiente" id="meio ambiente">Meio Ambiente  
+        <input type="checkbox" name="engenharia" id="engenharia">Engenharia
+        <input type="checkbox" name="historia" id="historia">História
+
+        <br><br>
+        <br>
+        <br>
+        <label for="area">Mini-Currículo:</label>
+        <textarea name="area" id="area" cols="30" rows="5" placeholder="Digite seu resumo profissional"></textarea>
+        <br>
+        <br>
+    </fieldset>
+    <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar o formulário">
+    </form>
+</body>
+</html>
